@@ -1,13 +1,13 @@
 <!-- l10n-sync: source-file="workshop/01-setup.md" -->
-# Parte 1: Configuración y Context Engineering
+# Parte 1: Configuración e ingeniería de contexto
 
 ---
 
 En esta parte configurarás tu entorno de desarrollo **y** enseñarás a Copilot sobre el código base — para que cada prompt futuro comience con el contexto adecuado.
 
-## Sección 1: Configuración Inicial
+## Sección 1: Configuración inicial
 
-### Paso 1: Crea Tu Repositorio
+### Paso 1: Crea tu repositorio
 
 1. Abre [github.com/copilot-dev-days/mona-mayhem](https://github.com/copilot-dev-days/mona-mayhem)
 2. Crea tu propio repositorio mediante una de estas opciones:
@@ -16,7 +16,7 @@ En esta parte configurarás tu entorno de desarrollo **y** enseñarás a Copilot
 3. Nómbralo `my-mona-mayhem` y establece la visibilidad como **Public** (si lo creaste desde la plantilla)
 
 <!-- track:vscode:start -->
-### Paso 2: Elige Tu Entorno de Desarrollo
+### Paso 2: Elige tu entorno de desarrollo
 
 #### Opción A: VS Code Local
 
@@ -30,7 +30,7 @@ En esta parte configurarás tu entorno de desarrollo **y** enseñarás a Copilot
 2. Haz clic en **Code** → **Codespaces** → **Create codespace on main**
 3. Espera a que el entorno inicie y las dependencias se instalen
 
-### Paso 3: Instala las Dependencias e Inicia la Aplicación
+### Paso 3: Instala las dependencias e inicia la aplicación
 
 1. Abre la terminal integrada en tu repositorio.
 2. Instala las dependencias:
@@ -71,7 +71,7 @@ Usa la ruta de instalación que corresponda a tu máquina:
   winget install GitHub.Copilot
   ```
 
-### Paso 3: Inicia la Aplicación y Autentica el CLI
+### Paso 3: Inicia la aplicación y autentica la CLI
 
 1. Clona tu repositorio localmente y abre una terminal en la raíz del proyecto.
 2. Instala las dependencias e inicia la aplicación:
@@ -98,12 +98,12 @@ Usa la ruta de instalación que corresponda a tu máquina:
 > ✅ **Ahora tienes la vista previa de la aplicación en una terminal y Copilot CLI listo en otra.**
 <!-- track:cli:end -->
 
-## Sección 2: Context Engineering
+## Sección 2: Ingeniería de contexto
 
-Context Engineering es cómo enseñas a la IA sobre tu código base. Cuanto mejor sea el contexto, mejor será cada respuesta futura.
+La ingeniería de contexto es la forma de enseñar a la IA cómo es tu código base. Cuanto mejor sea el contexto, mejor será cada respuesta futura.
 
 <!-- track:vscode:start -->
-### Tarea 1: Genera Instrucciones del Workspace con /init
+### Tarea 1: Genera instrucciones del workspace con /init
 
 Usemos el comando integrado `/init` para generar un archivo de instrucciones del workspace para Copilot:
 
@@ -118,7 +118,7 @@ Usemos el comando integrado `/init` para generar un archivo de instrucciones del
 
 > **Resultado:** Todas las futuras solicitudes a Copilot ahora tienen un mapa de tu workspace incorporado.
 
-### Tarea 2: Agentes en Segundo Plano
+### Tarea 2: Agentes en segundo plano
 
 **Agente en segundo plano local:**
 
@@ -137,7 +137,7 @@ Usemos el comando integrado `/init` para generar un archivo de instrucciones del
 
 > **Resultado:** Reglas de linting agregadas, errores corregidos, README mejorado — todo sin salir de tu editor.
 
-### Tarea 3: Explora el Proyecto
+### Tarea 3: Explora el proyecto
 
 Abre **Copilot Chat** en **modo Ask** y prueba estos prompts:
 
@@ -149,7 +149,7 @@ Abre **Copilot Chat** en **modo Ask** y prueba estos prompts:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
-### Tarea 1: Genera Instrucciones del Repositorio con /init
+### Tarea 1: Genera instrucciones del repositorio con /init
 
 Usemos `/init` para generar un archivo de instrucciones del workspace para Copilot:
 
@@ -164,7 +164,7 @@ Usemos `/init` para generar un archivo de instrucciones del workspace para Copil
 
 > **Resultado:** Las sesiones futuras del CLI heredan automáticamente las instrucciones específicas del repositorio desde `.github/copilot-instructions.md`.
 
-### Tarea 2: Configura Tu Entorno CLI
+### Tarea 2: Configura tu entorno CLI
 
 Practica los controles del CLI que facilitarán los pasos posteriores:
 
@@ -180,7 +180,7 @@ Practica los controles del CLI que facilitarán los pasos posteriores:
 
 > 💡 La documentación del CLI recomienda instrucciones personalizadas concisas más permisos de herramientas explícitos para que Copilot se mantenga rápido y predecible.
 
-### Tarea 3: Explora el Proyecto desde la Terminal
+### Tarea 3: Explora el proyecto desde el terminal
 
 Prueba estos prompts dentro de Copilot CLI:
 
@@ -197,7 +197,7 @@ copilot -p "Summarize the architecture of this repo in 5 bullet points"
 > **Resultado:** Ahora tienes instrucciones, conocimiento de comandos y una idea de cómo alimentar archivos al contexto de Copilot CLI.
 <!-- track:cli:end -->
 
-## ✅ Parte 1 Completa
+## ✅ ¡Parte 1 completada!
 
 Has aprendido cómo:
 

@@ -1,5 +1,5 @@
 <!-- l10n-sync: source-file="workshop/06-bonus.md" -->
-# 🎉 Bonus y Extensiones
+# 🎉 Extras y extensiones
 
 ---
 
@@ -130,7 +130,7 @@ Si quieres explorar más funcionalidades de Copilot CLI después del taller prin
 - Usa `/session` y `/session plan` para inspeccionar cómo el CLI está rastreando tu trabajo actual.
 <!-- track:cli:end -->
 
-## �� ¡Felicitaciones!
+## 🎊 ¡Felicidades!
 
 ¡Has completado el taller **Mona Mayhem: GitHub Battle**! Esto es lo que lograste:
 

@@ -1,5 +1,5 @@
 <!-- l10n-sync: source-file="workshop/05-polish.md" -->
-# Parte 5: Pulido y Trabajo Paralelo
+# Parte 5: Pulido y trabajo paralelo
 
 ---
 
@@ -112,7 +112,7 @@ Una vez que todo se vea bien, haz commit de tu código funcional.
 
 ---
 
-## ✅ ¡Parte 5 Completa!
+## ✅ ¡Parte 5 completada!
 
 **Lo que aprendiste:**
 

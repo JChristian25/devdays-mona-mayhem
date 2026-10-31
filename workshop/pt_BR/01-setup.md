@@ -1,5 +1,5 @@
 <!-- l10n-sync: source-file="workshop/01-setup.md" -->
-# Parte 1: Configuração e Context Engineering
+# Parte 1: Configuração e engenharia de contexto
 
 ---
 
@@ -18,7 +18,7 @@ Nesta parte você vai configurar seu ambiente de desenvolvimento **e** ensinar o
 <!-- track:vscode:start -->
 ### Passo 2: Escolha Seu Ambiente de Desenvolvimento
 
-#### Opção A: VS Code Local
+#### Opção A: VS Code local
 
 1. Abra o VS Code e execute **Git: Clone** → **Clone from GitHub**
 2. Selecione seu repositório `my-mona-mayhem`
@@ -103,7 +103,7 @@ Use o caminho de instalação que corresponde à sua máquina:
 Context Engineering é como você ensina a IA sobre sua base de código. Quanto melhor o contexto, melhor será cada resposta futura.
 
 <!-- track:vscode:start -->
-### Tarefa 1: Gere Instruções do Workspace com /init
+### Tarefa 1: Gere instruções do workspace com /init
 
 Vamos usar o comando integrado `/init` para gerar um arquivo de instruções do workspace para o Copilot:
 
@@ -122,16 +122,18 @@ Vamos usar o comando integrado `/init` para gerar um arquivo de instruções do 
 
 **Agente em segundo plano local:**
 
-1. No painel de Chat, clique em **+** → **New background agent**
-2. Digite o prompt:
+1. No painel de Chat, clique em **+** para iniciar um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Copilot CLI**.
+3. Digite o prompt:
 
    > "Add linting rules for unused vars and improve code style; fix any errors"
 
-3. Quando terminar, **Revise e Aplique** as alterações, depois delete a sessão.
+4. Quando terminar, **Revise e aplique** as alterações; arquive a sessão se quiser.
 
 **Agente na nuvem:**
 
-1. Inicie outro agente em segundo plano com:
+1. No painel de Chat, clique em **+** para iniciar um novo chat.
+2. Na parte inferior da janela, altere **Local** para **Cloud**.
 
    > "Make the README more engaging as a landing page"
 
@@ -149,7 +151,7 @@ Abra o **Copilot Chat** no **modo Ask** e experimente estes prompts:
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
-### Tarefa 1: Gere Instruções do Repositório com /init
+### Tarefa 1: Gere instruções do repositório com /init
 
 Vamos usar `/init` para gerar um arquivo de instruções do workspace para o Copilot:
 

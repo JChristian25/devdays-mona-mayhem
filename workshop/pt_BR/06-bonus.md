@@ -1,12 +1,12 @@
 <!-- l10n-sync: source-file="workshop/06-bonus.md" -->
-# 🎉 Bônus e Extensões
+# 🎉 Bônus e extensões
 
 ---
 
-Você construiu um aplicativo de GitHub Battle totalmente funcional! Agora é hora de ir além com **desafios abertos**.
+Você construiu um app GitHub Battle totalmente funcional! Agora é hora de ir além com **desafios abertos**.
 
 <!-- track:vscode:start -->
-Use **Agent Mode** para todos estes — descreva o que você quer e deixe o Copilot te ajudar a construir.
+Use o **Agent Mode** para todos estes — descreva o que você quer e deixe o Copilot ajudar você a construir.
 <!-- track:vscode:end -->
 
 <!-- track:cli:start -->
@@ -51,9 +51,9 @@ Persista os resultados das batalhas para que os usuários possam ver seus confro
 
 **O que construir:**
 - Salve cada resultado de batalha no `localStorage` (nomes de usuário, totais, vencedor, timestamp)
-- Adicione uma seção **"Recent Battles"** abaixo da área principal de batalha
+- Adicione uma seção **"Batalhas recentes"** abaixo da área principal de batalha
 - Mostre as últimas 5–10 batalhas com resultados
-- Adicione um botão "Clear History"
+- Adicione um botão "Limpar histórico"
 
 **Sugestão de prompt:**
 > Save battle results to localStorage after each comparison. Add a "Recent Battles" section that displays the last 10 battles with usernames, contribution totals, the winner, and when the battle happened. Include a "Clear History" button.
@@ -96,7 +96,7 @@ Adicione uma legenda de escala de cores que corresponda à paleta de cores do gr
 
 **O que construir:**
 - Uma legenda horizontal mostrando os níveis de intensidade de contribuições
-- Rótulos de **"Less"** a **"More"**
+- Rótulos de **"Menos"** a **"Mais"**
 - Use a paleta de cores real da resposta da API de contribuições do GitHub
 - Posicione-a perto dos gráficos de contribuições
 
@@ -110,10 +110,10 @@ Adicione uma legenda de escala de cores que corresponda à paleta de cores do gr
 Permita que os usuários compartilhem seus resultados de batalha com um único clique.
 
 **O que construir:**
-- Um botão **"📋 Share Results"** que aparece após uma batalha
+- Um botão **"📋 Compartilhar resultados"** que aparece após uma batalha
 - Copia um resumo formatado em texto para a área de transferência
 - Inclua nomes de usuário, totais de contribuições e o vencedor
-- Mostre uma breve mensagem de confirmação "Copied!"
+- Mostre uma breve mensagem de confirmação "Copiado!"
 
 **Sugestão de prompt:**
 > Add a "📋 Share Results" button that copies a formatted battle summary to the clipboard. The summary should include both usernames, their contribution totals, and who won. Use the Clipboard API and show a brief "Copied to clipboard!" confirmation.
@@ -134,7 +134,7 @@ Se quiser explorar mais funcionalidades do Copilot CLI após o workshop principa
 
 Você completou o workshop **Mona Mayhem: GitHub Battle**! Aqui está o que você realizou:
 
-### O Que Você Construiu
+### O que você construiu
 
 - ✅ Um **aplicativo web completo de múltiplas páginas** a partir de uma especificação de design
 - ✅ Uma **página inicial** com temática retro arcade e layout responsivo
@@ -143,7 +143,7 @@ Você completou o workshop **Mona Mayhem: GitHub Battle**! Aqui está o que voc�
 - ✅ **Tratamento de erros, estados de carregamento e melhorias de acessibilidade**
 - ✅ **Design responsivo** que funciona em todos os dispositivos
 
-### O Que Você Praticou
+### O que você praticou
 
 | Habilidade | O Que Você Praticou |
 |------------|---------------------|
